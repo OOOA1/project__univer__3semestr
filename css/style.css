@@ -33,7 +33,7 @@ button {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1110px;
     width: 100%;
     margin: auto;
 }
@@ -46,11 +46,20 @@ button {
 
 .nav__list {
     display: flex;
+    align-content: inherit;
+    justify-content: space-between;
 }
 
 .nav__item {
     list-style-type: none;
     margin-right: 85px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
 }
 
 .nav__link {
@@ -99,6 +108,10 @@ button {
     border-radius: 6px;
     color: #FFF;
     font-weight: 500;
+}
+
+.sup__btn:hover {
+    background-color: #27808b;
 }
 
 /* Header end */
@@ -195,6 +208,10 @@ button {
     line-height: 150%;
 }
 
+.info__btn:hover {
+    background-color: #27808b;
+}
+
 /* info end */
 
 /* Service start */
@@ -225,9 +242,9 @@ button {
 }
 
 .service__card {
-    width: 261px;
+    width: 350px;
     height: 262px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .service__card svg {
@@ -238,14 +255,14 @@ button {
     margin-right: 0;
 }
 
-.blue {
+.active__block {
     border-radius: 10px;
     border: 1px solid #A3E0E8;
     background-color: #D1F4F9;
     width: 350px;
 }
 
-.blue .card__text {
+.active__block .card__text {
     padding: 0 22px;
 }
 
@@ -319,7 +336,16 @@ button {
     margin-top: 35px;
 
     border-radius: 6px;
-    border: 1px solid rgba(53, 175, 191, 0.20);
+    border: 1px solid rgb(60, 204, 223);
+}
+
+.men__button__link {
+    text-decoration: none;
+    color: #35AFBF;
+}
+
+.men__button__link:hover {
+    color: #2a8692;
 }
 
 .men__img__block {
@@ -546,6 +572,10 @@ button {
     margin: 35px 0 120px;
 }
 
+.tried__btn:hover {
+    background-color: #27808b;
+}
+
 /* tried end */
 
 /* footer start */
@@ -613,6 +643,10 @@ button {
 
     border-radius: 12px;
     border: 2px solid rgba(255, 255, 255, 0.30);
+}
+
+.footer__btn:hover {
+    border: 2px solid #2C353E;
 }
 
 .footer__line {

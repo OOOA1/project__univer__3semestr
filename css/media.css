@@ -1,0 +1,42 @@
+@media(max-width: 1024px) {
+    .nav__item {
+        margin-right: 50px;
+    }
+
+    .info__title {
+        font-size: 42px;
+    }
+
+    .info__title span {
+        font-size: 42px;
+    }
+
+    .info__text {
+        /* font-size: 42px; */
+        width: 70%;
+    }
+
+    .function__block__wrapper {
+        align-items: center;
+    }
+
+    .function__block {
+        margin-right: 0;
+    }
+
+    .logoipsum__text {
+        font-size: 24px;
+    }
+
+    .tried {
+        margin-top: 0;
+    }
+
+    .tried__title {
+        font-size: 24px;
+    }
+
+    .footer__block {
+        margin-right: 60px;
+    }
+}
